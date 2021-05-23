@@ -1,0 +1,29 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2016.4/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'nurul' on host 'desktop-epige7l' (Windows NT_amd64 version 6.2) on Sun May 23 11:55:41 +0800 2021
+INFO: [HLS 200-10] In directory 'C:/Users/nurul/Downloads/hls_error/hls_error'
+INFO: [HLS 200-10] Opening project 'C:/Users/nurul/Downloads/hls_error/hls_error/sha256_prj'.
+INFO: [HLS 200-10] Opening solution 'C:/Users/nurul/Downloads/hls_error/hls_error/sha256_prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux.
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../sha256_tb.c in debug mode
+INFO: [HLS 200-10] Running 'c:/Xilinx/Vivado_HLS/2016.4/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'nurul' on host 'desktop-epige7l' (Windows NT_amd64 version 6.2) on Sun May 23 11:55:45 +0800 2021
+INFO: [HLS 200-10] In directory 'C:/Users/nurul/Downloads/hls_error/hls_error/sha256_prj/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling(apcc) ../../../../sha256.c in debug mode
+INFO: [HLS 200-10] Running 'c:/Xilinx/Vivado_HLS/2016.4/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'nurul' on host 'desktop-epige7l' (Windows NT_amd64 version 6.2) on Sun May 23 11:55:48 +0800 2021
+INFO: [HLS 200-10] In directory 'C:/Users/nurul/Downloads/hls_error/hls_error/sha256_prj/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating csim.exe
+Comparing results against golden output
+-----------------------------------------------
+PASS: The output matches with the golden output
+-----------------------------------------------
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
